@@ -1,10 +1,10 @@
-# Tuple untuk menyimpan username dan password
+#Tuple untuk menyimpan username dan password
 user_credentials = (
     ('admin', 'admin'),
     ('test', 'test'),
 )
 
-# Inisialisasi riwayat transaksi
+#Inisialisasi riwayat transaksi
 transaction_history = []
 
 #Check Login
@@ -107,7 +107,7 @@ while True:
                     #validate history transaction
                     tampilkan_riwayat = input("\nApakah Anda ingin melihat riwayat transaksi? (v/t): ")
                     if tampilkan_riwayat.lower() == "v":
-                        # Tampilkan riwayat transaksi
+                        #tampilkan riwayat transaksi
                         print("\nRiwayat Transaksi:")
                         for transaction in transaction_history:
                             print(transaction)
