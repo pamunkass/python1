@@ -126,6 +126,5 @@ while True:
                         break
                     else:
                         print("Input tidak valid. Masukkan 'v' atau 't'.")
-            break
     else:
         print("Login gagal. Silakan coba lagi.")
